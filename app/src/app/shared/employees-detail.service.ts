@@ -8,7 +8,7 @@ export class EmployeesDetailService {
 
   constructor(private http: HttpClient) { }
 
-  readonly baseURL = 'https://localhost:44317​/api​/EmployeesDetails'
+  readonly baseURL = 'https://localhost:5001/api/EmployeesDetails'
   formData: EmployeesDetail= new EmployeesDetail();
   list: EmployeesDetail[] = [];
 

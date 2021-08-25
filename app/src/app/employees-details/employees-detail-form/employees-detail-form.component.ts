@@ -31,7 +31,7 @@ export class EmployeesDetailFormComponent implements OnInit {
       res => {
         this.resetForm(form);
         this.service.refreshList();
-        this.toastr.success('Submitted successfully', 'Payment Detail Register')
+        this.toastr.success('Submitted successfully', 'Detail Register')
       },
       err => { console.log(err); }
     );
@@ -42,7 +42,7 @@ export class EmployeesDetailFormComponent implements OnInit {
       res => {
         this.resetForm(form);
         this.service.refreshList();
-        this.toastr.info('Updated successfully', 'Payment Detail Register')
+        this.toastr.info('Updated successfully', 'Detail Register')
       },
       err => { console.log(err); }
     );

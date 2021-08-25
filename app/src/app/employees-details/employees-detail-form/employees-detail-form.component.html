@@ -3,13 +3,13 @@
     <div class="form-group">
         <label>FirstName</label>
         <input class="form-control form-control-lg" placeholder="Full Name" name="empname"
-            #empname="ngModel" [(ngModel)]="service.formData.FirstName"
+            #empname="ngModel" [(ngModel)]="service.formData.firstName"
             required [class.invalid]="empname.invalid && empname.touched">
     </div>
     <div class="form-group">
         <label>LastName</label>
         <input class="form-control form-control-lg" placeholder="LastNamer" name="emplastname"
-            #emplastname="ngModel" [(ngModel)]="service.formData.LastName"
+            #emplastname="ngModel" [(ngModel)]="service.formData.lastName"
              [class.invalid]="emplastname.invalid && emplastname.touched">
     </div>
     <div class="form-row">

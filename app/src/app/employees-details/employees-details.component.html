@@ -18,12 +18,12 @@
                 </tr>
             </thead>
             <tbody>
-                <tr *ngFor="let pd of service.list">
-                    <td (click)="populateForm(pd)">{{pd.FirstName}}</td>
-                    <td (click)="populateForm(pd)">{{pd.LastName}}</td>
-                    <td (click)="populateForm(pd)">{{pd.email}}</td>
+                <tr *ngFor="let ed of service.list">
+                    <td (click)="populateForm(ed)">{{ed.firstName}}</td>
+                    <td (click)="populateForm(ed)">{{ed.lastName}}</td>
+                    <td (click)="populateForm(ed)">{{ed.email}}</td>
                     <td>
-                        <i class="far fa-trash-alt fa-lg text-danger" (click)="onDelete(pd.EmployeesDetailId)"></i>
+                        <i class="far fa-trash-alt fa-lg text-danger" (click)="onDelete(ed.EmployeesDetailId)"></i>
                     </td>
                 </tr>
             </tbody>
