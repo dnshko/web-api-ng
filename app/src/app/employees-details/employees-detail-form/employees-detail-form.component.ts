@@ -20,7 +20,7 @@ export class EmployeesDetailFormComponent implements OnInit {
   }
 
   onSubmit(form: NgForm) {
-    if (this.service.formData.EmployeesDetailId == 0)
+    if (this.service.formData.employeesDetailId == 0)
       this.insertRecord(form);
     else
       this.updateRecord(form);

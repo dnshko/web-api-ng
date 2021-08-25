@@ -16,7 +16,7 @@ export class EmployeesDetailService {
     return this.http.post(this.baseURL, this.formData);
   }
   putEmployeesDetail() {
-    return this.http.put(`${this.baseURL}/${this.formData.EmployeesDetailId}`, this.formData);
+    return this.http.put(`${this.baseURL}/${this.formData.employeesDetailId}`, this.formData);
   }
   deleteEmployeesDetail(id: number) {
     return this.http.delete(`${this.baseURL}/${id}`);
