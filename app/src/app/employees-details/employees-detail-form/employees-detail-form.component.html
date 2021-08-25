@@ -2,7 +2,7 @@
     <input type="hidden" name="EmployeesDetailId" [value]="service.formData.employeesDetailId" />
     <div class="form-group">
         <label>FirstName</label>
-        <input class="form-control form-control-lg" placeholder="Full Name" name="empname"
+        <input class="form-control form-control-lg" placeholder="First Name" name="empname"
             #empname="ngModel" [(ngModel)]="service.formData.firstName"
             required [class.invalid]="empname.invalid && empname.touched">
     </div>

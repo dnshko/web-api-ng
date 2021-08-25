@@ -3,6 +3,6 @@ export class EmployeesDetail {
     firstName: string='';
     lastName: string='';
     email: string='';
-    PhoneNumber: string='';
-    JobId: string='';
+    phoneNumber: string='';
+    jobId: string='';
 }
